@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-move-bg: move-bg 45s linear infinite;
+
+  @keyframes move-bg {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100%);
+    }
+  }
+}
