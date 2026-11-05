@@ -13,6 +13,7 @@ export default function GlassCard({ children, className = "" }: Props) {
         aria-hidden
         className="
           absolute -inset-px -z-10 rounded-[inherit]
+          backdrop-blur-xs
           [backdrop-filter:url(#container-glass)]
         "
       />
