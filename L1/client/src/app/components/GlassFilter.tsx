@@ -17,6 +17,8 @@ export default function GlassFilters() {
           xChannelSelector="R"
           yChannelSelector="G"
         />
+
+        {/* this is for blurry glass */}
         {/* <feGaussianBlur in="displaced" stdDeviation={2} /> */}
       </filter>
     </svg>
